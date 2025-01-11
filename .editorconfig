@@ -1,9 +1,9 @@
 root = true
 
 [*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
+indent_style = space # para indentação em espaço.
+indent_size = 2 # o tamanho da indentação será de 2 espaços.
+end_of_line = lf # formatação do final da linha, o LF é o que possui maior compatibilidade entre os sistemas operacionais.
+charset = utf-8 # é o encode do código, a formatação dos caracteres. No html padrão já é utilizado o utf-8.
+trim_trailing_whitespace = true # obriga o usuário a colocar um espaço após símbolos e caracteres especiais.
+insert_final_newline = true # para finalizar o arquivo obrigatoriamente com uma linha em branco.
